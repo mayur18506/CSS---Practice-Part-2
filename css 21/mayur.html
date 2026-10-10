@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alingment</title>
+    <style>
+        * {
+            boxsizing: border-box;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            background-color: brown;
+            margin: 33px auto;
+        }
+
+        .item {
+            border: 3px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(170, 83, 83);
+        }
+
+        #fruits {
+            float: left;
+            width: 388px;
+        }
+
+        #computer {
+            float: right;
+            width: 388px;
+        }
+
+        #stationary {
+            /* float: left; */
+            width: 80%;
+            clear: both;
+        }
+        p,h1{
+            text-align: right;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome my store </h1>
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore sequi
+                omnis minima magnam nam dignissimos tempore, iure velit, doloribus, rerum numquam sapiente ipsa! Commodi
+                sapiente vel dolore reiciendis Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel magni at architecto aperiam illum numquam pariatur eos molestiae tenetur dolore distinctio cumque quibusdam dolor molestias possimus consequuntur, quas quis. Tenetur nesciunt cupiditate quod?</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore sequi
+                omnis minima magnam nam dignissimos tempore, iure velit, doloribus, rerum numquam sapiente ipsa! Commodi
+                sapiente vel dolore reiciendis maxime Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis commodi blanditiis necessitatibus atque. Voluptatum dolorem laboriosam id pariatur suscipit neque ipsam. Aspernatur enim neque, obcaecati ipsam veritatis sapiente nobis impedit expedita deleniti id voluptatum?.</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore
+                sequi omnis minima magnam nam dignissimos tempore, iure velit, doloribus, rerum numquam sapiente ipsa!
+                Commodi sapiente vel dolore reiciendis maxime.</p>
+
+        </div>
+        <div id="glass" class="item">
+            <h3>stationary</h3>
+            <p id="glasspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore
+                sequi omnis minima magnam nam dignissimos tempore, iure velit, doloribus, rerum numquam sapiente ipsa!
+                Commodi sapiente vel dolore reiciendis maxime.</p>
+    </div>
+
+</body>
+
+</html>

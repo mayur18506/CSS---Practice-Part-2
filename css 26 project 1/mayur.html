@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayur Fitness</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    /* css reset */
+    body {
+        color: white;
+        margin: 0;
+        padding: 0;
+        background: url("img/pexels-jay-soundo-2148060180-31109934.jpg");
+        height: auto;
+        width: auto;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .left {
+        display: inline-block;
+        border: 2px solid red;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 120px;
+        text-align: center;
+
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 19px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 20px auto;
+        border: 2px solid green;
+        border-radius: 10px;
+        top: 40px;
+        /* border: 2px solid rgb(5, 211, 43); */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 40px;
+        display: inline-block;
+        border: 2px solid rgb(134, 214, 7);
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: gray;
+        color: black;
+    }
+
+    .container {
+        border: 2px solid rgb(181, 188, 181);
+        margin: 200px 18px;
+        padding: 85;
+        width: 50%;
+        border-radius: 20px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 408px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 8px auto;
+    }
+
+    .container h1 {
+        text-align: center;
+
+    }
+
+    .container button {
+        display: block;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <div class="left"></div>
+            <img src="img/pexels-pixabay-260352.jpg" alt="">
+            <div>
+                Mayur Fitness</div>
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym in Nagpur now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
